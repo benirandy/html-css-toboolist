@@ -3,6 +3,61 @@ header {
     margin-top: 20px;
 }
 
-#titolo {
-    margin;
+#titolo {}
+
+.blue {
+    color: #FFF;
+    background-color: #59CFED;
+    border-color: #59CFED;
+}
+
+.white {
+    color: lightgray;
+    background-color: white;
+    border-color: lightgray;
+}
+
+button {
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 5px;
+    padding: 5px 20px;
+    margin: 5px 10px;
+}
+
+.sottotitolo::before {
+    content: \25BE’;
+    color: black;
+    margin-right: 8px;
+    font-size: 22px;
+}
+
+li::marker {
+    display: none;
+    content: ;
+}
+
+li::before {
+    content: \2713;
+    color: green;
+    border-radius: 20px;
+    border: 1px solid green;
+}
+
+li {
+    margin: 10px 0px;
+}
+
+li::marker {
+    display: none;
+    content: ‘’;
+}
+
+li::before {
+    content: \2713’;
+    color: green;
+    border-radius: 20px;
+    border: 1px solid green;
+    margin-right: 8px;
+    padding: 2px 5px;
 }
