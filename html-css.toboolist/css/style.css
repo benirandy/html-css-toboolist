@@ -82,3 +82,35 @@ li::before {
     margin-right: 8px;
     padding: 2px 5px;
 }
+
+#button1 {
+    background-color: #59CF
+}
+
+#button2 {
+    background-color: #59CF;
+}
+
+#button8 {
+    background-color: #59CF;
+}
+
+#button3 {
+    background-color: rgb(145, 85, 204);
+}
+
+#button4 {
+    background-color: rgb(85, 204, 85);
+}
+
+#button5 {
+    background-color: rgba(204, 184, 85, 0.707);
+}
+
+#button6 {
+    background-color: rgb(204, 85, 186);
+}
+
+#button7 {
+    background-color: rgb(141, 204, 85);
+}
