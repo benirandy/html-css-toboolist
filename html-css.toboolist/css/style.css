@@ -1,9 +1,30 @@
-header {
-    margin: 30px;
-    margin-top: 20px;
+#logo.titolo {
+    padding: 1%;
+    font-size: 40px;
+
 }
 
-#titolo {}
+header {
+    margin: 2px;
+    padding: 7px
+}
+
+#logo.titolo {
+    padding: 1%;
+    font-size: 40px;
+
+}
+
+main {
+    padding: 7%;
+}
+
+#titolo {
+    font-size: 35px;
+    margin: 3px;
+    padding: 5px;
+    vertical-align: top;
+}
 
 .blue {
     color: #FFF;
@@ -25,7 +46,7 @@ button {
     margin: 5px 10px;
 }
 
-.sottotitolo::before {
+.sottotitolo {
     content: \25BE’;
     color: black;
     margin-right: 8px;
